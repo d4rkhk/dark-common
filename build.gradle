@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
+
+group 'me.agxpt.dark'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {}
