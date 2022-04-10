@@ -6,7 +6,7 @@ import me.agxpt.dark.common.types.IRectData;
  * Default implementation of {@link IRectData}
  */
 public class RectData<T> implements IRectData<T> {
-    T tr, tl, br, bl;
+    public T tr, tl, br, bl;
 
     public RectData(T tr, T tl, T br, T bl) {
         this.tr = tr;
