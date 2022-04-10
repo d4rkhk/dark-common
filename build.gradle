@@ -11,3 +11,15 @@ repositories {
 }
 
 dependencies {}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = group
+            artifactId = 'dark-common'
+            version = version
+
+            from components.java
+        }
+    }
+}
