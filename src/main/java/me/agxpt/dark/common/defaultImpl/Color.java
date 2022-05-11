@@ -54,4 +54,12 @@ public class Color implements IColor {
     public void a(double a) {
         this.a = a;
     }
+
+    @Override
+    public int toARGB() {
+        return ((int) (a * 255) << 24)
+                + ((int) (r * 255) << 16)
+                + ((int) (g * 255) << 8)
+                + (int) (b * 255);
+    }
 }

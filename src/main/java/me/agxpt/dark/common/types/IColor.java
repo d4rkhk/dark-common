@@ -56,4 +56,11 @@ public interface IColor {
      * @param a Alpha value to set.
      */
     void a(double a);
+
+    /**
+     * Get the color as ARGB 0-255 int.
+     *
+     * @return The color as ARGB 0-255 int.
+     */
+    int toARGB();
 }
